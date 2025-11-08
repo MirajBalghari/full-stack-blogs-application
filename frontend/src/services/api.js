@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'http://localhost:8000/api',
+    baseURL:'https://full-stack-blogs-application.vercel.app/api',
     withCredentials:true
 })
 
