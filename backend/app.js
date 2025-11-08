@@ -23,9 +23,7 @@ app.use('/api/user', userRouter)
 app.use('/api/post', postRouter)
 app.use('/api/notification', notificationRouter)
 
-app.get('/',(req,res)=>{
-    res.send('send server successfull')
-})
+
 const server = http.createServer(app)
 socketInit(server)
 
