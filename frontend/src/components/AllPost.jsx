@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { BsThreeDots } from "react-icons/bs";
 import AuthContext from '../context/AuthContext'
 import toast from 'react-hot-toast';
-import UpdatePost from './updatePost';
+import UpdatePost from './UpdatePost';
 import api from '../services/api';
 import { AiFillLike } from "react-icons/ai";
 import { LiaComment } from "react-icons/lia";
